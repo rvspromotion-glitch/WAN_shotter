@@ -60,7 +60,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/comfyui-zit_i9_template:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/comfyui-wan_shotter_i9_template:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
           platforms: linux/amd64
